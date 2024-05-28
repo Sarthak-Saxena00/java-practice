@@ -6,5 +6,8 @@ public class Test {
         String str="sarthak";
         int len=str.length();
         System.out.println(len);
+
+        String st= new String("sarthak");
+        System.out.println(st==str);
     }
 }
