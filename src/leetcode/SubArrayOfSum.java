@@ -16,9 +16,9 @@ public class SubArrayOfSum {
                     if(currentSum==sum){
                         System.out.println("sum found at index "+i+" to "+j);
                     }
-                    else{
-                        System.out.println("No subarray found");
-                    }
+//                    else{
+//                        System.out.println("No subarray found");
+//                    }
                 }
             }
         }
