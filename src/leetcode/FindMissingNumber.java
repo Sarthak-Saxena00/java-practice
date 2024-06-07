@@ -24,9 +24,7 @@ public class FindMissingNumber {
 
         //creating new array with n size and initializing with it's all element as 0
         int[] arrNew= new int[n];
-        for(int i=0;i<n;i++){
-            arrNew[i]=0;
-        }
+
         System.out.println(Arrays.toString(arrNew));
 
         for(int i: arr){
