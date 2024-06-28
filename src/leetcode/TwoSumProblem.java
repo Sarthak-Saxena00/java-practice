@@ -10,7 +10,7 @@ public class TwoSumProblem {
 
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> hm= new HashMap<Integer,Integer>();
-        for(int i=1;i<=nums.length;i++)
+        for(int i=0;i<nums.length;i++)
         {
             int reqNumber=target-nums[i];
             if(hm.containsKey(reqNumber))
