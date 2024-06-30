@@ -1,6 +1,6 @@
-package scalerarray;
+package leetcode;
 
-public class MaxProfitOnStock {
+public class MaxProfitOnStock121 {
     public int maxProfit(int[] arr){
         int len=arr.length;
         int cheapestDay=0;
@@ -24,7 +24,7 @@ public class MaxProfitOnStock {
     }
     public static void main(String[] args) {
         int[] arr={2,4,1};
-        MaxProfitOnStock mps=new MaxProfitOnStock();
+        MaxProfitOnStock121 mps=new MaxProfitOnStock121();
         System.out.println("the max profit is ---> "+mps.maxProfit(arr));
     }
 }
