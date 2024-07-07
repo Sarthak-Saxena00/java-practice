@@ -1,5 +1,8 @@
 package multithreading;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class IncrementCount {
     private int count=1;
     private final Object lk=new Object();
@@ -48,5 +51,6 @@ public class IncrementCount {
         Thread t2=new Thread(ic::printEven);
         t1.start();
         t2.start();
+        ArrayList<Integer> l= new ArrayList<>();
     }
 }
