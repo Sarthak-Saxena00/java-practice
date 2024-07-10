@@ -14,13 +14,13 @@ public class UnionAndIntersection {
         HashSet<Integer> union=new HashSet<>();
         ArrayList<Integer> intersection =new ArrayList<>();
 
-        for (int i:arr1){
-            union.add(i);
-        }
-        for (int i:arr2){
-            union.add(i);
-        }
-        System.out.println("the union of both array is"+union);
+//        for (int i:arr1){
+//            union.add(i);
+//        }
+//        for (int i:arr2){
+//            union.add(i);
+//        }
+//        System.out.println("the union of both array is"+union);
 
         for (int i : arr1) {
             if (contains(arr2, i)) {
